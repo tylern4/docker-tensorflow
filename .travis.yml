@@ -5,5 +5,5 @@ services:
     - docker
 
 script:
-    - docker build -t tylern4/tensorflow-dev docker-tensorflow/.
+    - docker build -t tylern4/tensorflow-dev .
     - docker images -a
